@@ -27,15 +27,17 @@
 //     }
 //     return result;
 // }
-Console.WriteLine("Введите размерность массива: ");
-Random rnd = new Random();
-int lenghtOfArray = Convert.ToInt32(Console.ReadLine());
-int[] array =new int[lenghtOfArray];
-for (int i = 0; i < lenghtOfArray; i++)
-{
-    array[i]= rnd.Next(0,100);
-}
-for (int i = 0; i < lenghtOfArray; i++)
-{
-    Console.WriteLine($"{i} эллемент массива = {array[i]}");
-}
+// Console.WriteLine("Введите размерность массива: ");
+// Random rnd = new Random();
+// int lenghtOfArray = Convert.ToInt32(Console.ReadLine());
+// int[] array =new int[lenghtOfArray];
+// for (int i = 0; i < lenghtOfArray; i++)
+// {
+//     array[i]= rnd.Next(0,100);
+// }
+// for (int i = 0; i < lenghtOfArray; i++)
+// {
+//     Console.WriteLine($"{i} эллемент массива = {array[i]}");
+// }
+
+
